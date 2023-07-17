@@ -1,0 +1,118 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Oregano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Ancho"
+      },
+      {
+        "id": 4,
+        "tipo": "Picanha"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Baicon"
+      },
+      {
+        "id": 2,
+        "tipo": "Batata"
+      },
+      {
+        "id": 3,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Salame"
+      },
+      {
+        "id": 6,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "Douglas castro",
+      "carne": "Maminha",
+      "pao": "Queijos",
+      "opcionais": [
+        "Baicon",
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Em produção",
+      "id": 8
+    },
+    {
+      "nome": "Maria",
+      "carne": "Ancho",
+      "pao": "Queijos",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "nome": "alex",
+      "carne": "Maminha",
+      "pao": "Queijos",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 11
+    },
+    {
+      "nome": "Ronni",
+      "carne": "Ancho",
+      "pao": "Italiano Branco",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 12
+    }
+  ]
+}
